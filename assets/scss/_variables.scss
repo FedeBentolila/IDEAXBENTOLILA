@@ -1,0 +1,16 @@
+$colorprimario :  whitesmoke;
+$colorsecundario : rgb(71, 74, 73);
+$colorterciario : white;
+$colorcuaterniario : rgb(63, 63, 63);
+$colorcinco: gray;
+$colorseis: rgb(93, 93, 93);
+$colorsiete:rgb(99, 205, 205);
+
+$card:(
+    margen-arriba: 20px,
+    altura: auto,
+    color-fondo: $colorcinco,
+    color-letra: $colorterciario,
+    fuente: 'Trebuchet MS',
+    fuente-size: 15x, 
+)

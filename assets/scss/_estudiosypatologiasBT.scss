@@ -1,0 +1,17 @@
+
+    .estudiosypatologiasBT{
+        background-color: $colorcinco;
+        color:  $colorprimario;
+        padding: 20px;
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+        width: auto;
+    }
+
+    .principalesestudiosBT{
+        @extend .estudiosypatologiasBT;
+    }
+
+
+    

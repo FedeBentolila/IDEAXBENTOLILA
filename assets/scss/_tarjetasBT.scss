@@ -1,0 +1,60 @@
+.tarjetasBT{
+    margin-top: 50px;
+    width: auto;
+
+    div:hover{
+         transform: scale(1.2);
+         transition: 3s;
+        
+    }
+
+    .card{
+        margin-top: map-get($card, margen-arriba);
+        height: map-get($card, altura );
+        background-color: map-get($card, color-fondo);
+        color: map-get($card, color-letra );
+        font-family: map-get($card, fuente);
+        font-size: map-get($card, fuente-size );
+    }
+
+       
+    .card-body{
+     background-color:$colorsiete;
+    }
+
+}
+
+.tarjetasdeestudiosBT{
+    @extend .tarjetasBT;
+}
+
+@mixin propiedadesdetarjetas ($margen-arriba,$altura,$color-fondo,$color-letra,$fuente,$fuente-size,) {
+    margin-top: $margen-arriba;
+    height: $altura;
+    background-color: $color-fondo;
+    color: $color-letra;
+    font-family: $fuente;
+    font-size: $fuente-size;  
+}
+
+.tarjetasdeequipoBT {
+
+    margin-top: 50px;
+    width: auto;
+
+    div:hover{
+         transform: scale(1.2);
+         transition: 3s;
+        
+    };
+
+    .card{
+
+    @include propiedadesdetarjetas(20px, auto, $colorcinco, $colorterciario, 'Trebuchet MS' , 15x);
+
+    .card-body{
+        background-color:$colorsiete;
+       }
+
+    }
+}
