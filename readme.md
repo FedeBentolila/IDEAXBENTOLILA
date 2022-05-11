@@ -8,4 +8,5 @@ map-get en tarjetasBT
 
 SEO:
 Agregado: TITLE, DESCRIPTION Y KEYWORDS a cada página
+<<<<<<< HEAD
 Agregado: Sitemap
