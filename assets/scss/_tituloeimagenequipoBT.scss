@@ -1,6 +1,23 @@
 .tituloeimagenequipoBT{
-    background-color: $colorsiete;
-    color: white;
-    width:auto;
+    background-image: url(../img/teamwork-hands.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 400px;
+    width: auto;
+    margin-top: 20px;
+
+    .tituloeq h2{
+        color: $colorcuaterniario;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 40px;
+
+    }
+
+    .tituloesp h2{
+        color: $colorcuaterniario;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+    }
 }
