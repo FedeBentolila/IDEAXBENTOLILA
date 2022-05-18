@@ -5,6 +5,9 @@
 
     ul{
         list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         color: $colorprimario;
         height: 380px;
